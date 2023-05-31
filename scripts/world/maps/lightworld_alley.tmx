@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="9">
+ <editorsettings>
+  <export target="lightworld_alley.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" value="true"/>
+  <property name="name" value="Alley"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/hometown_map.tsx"/>
+ <layer id="1" name="tiles" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,11371,11372,11373,11374,0,0,0,0,0,0,
+0,0,0,0,0,0,11514,11515,11516,11517,0,0,0,0,0,0,
+0,0,0,0,0,0,11657,11658,11659,11660,0,0,0,0,0,0,
+0,0,0,0,0,0,11800,11801,11802,11803,0,0,0,0,0,0,
+0,0,0,0,0,0,11943,11944,11945,11946,0,0,0,0,0,0,
+0,0,0,0,0,0,12086,12087,12088,12089,0,0,0,0,0,0,
+0,0,0,0,0,0,12229,12230,12231,12232,0,0,0,0,0,0,
+0,0,0,0,0,0,12372,12373,12374,12375,0,0,0,0,0,0,
+0,0,0,0,0,0,12515,12516,12517,12518,0,0,0,0,0,0,
+0,0,0,0,0,0,12658,12659,12660,12661,0,0,0,0,0,0,
+0,0,0,0,0,0,12801,12802,12803,12804,0,0,0,0,0,0,
+0,0,0,0,0,0,12944,12945,12946,12947,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="2" name="collision">
+  <object id="1" x="240" y="0" width="160" height="160"/>
+  <object id="2" x="400" y="160" width="40" height="320"/>
+  <object id="3" x="200" y="160" width="40" height="320"/>
+  <object id="4" x="240" y="480" width="160" height="40"/>
+  <object id="5" x="360" y="160" width="40" height="240"/>
+ </objectgroup>
+ <objectgroup color="#5500ff" id="3" name="markers">
+  <object id="8" name="entry" x="320" y="400">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" id="4" name="objects">
+  <object id="6" name="transition" x="240" y="462.667" width="160" height="17.3333">
+   <properties>
+    <property name="facing" value="down"/>
+    <property name="map" value="lightworld_exterior"/>
+    <property name="marker" value="entry3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

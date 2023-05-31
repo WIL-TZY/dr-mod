@@ -1,0 +1,69 @@
+{
+    "id": "miscellaneous",
+    "name": "Miscellaneous",
+    "subtitle": "A hodgepodge of a zillion things.",
+
+    "version": "v?.?.?",
+    "engineVer": "v0.8.1-dev",
+
+    "chapter": 2,
+
+    //"shop": "jacksons",
+    //"map": "alley",
+    //"map": "school",
+    //"map": "school_corridor",
+    "map": "kris_rm",
+    //"map": "lightworld_exterior",
+    //"map": "toriel_floor2",
+    //"map": "castletown1",
+    //"map": "castletown2",
+    //"map": "castletown3",
+    //"map": "castletown_main",
+    //"map": "castletown_extra",
+
+    //"party": ["kris"],
+    "party": ["kris", "susie"],
+    //"party": ["kris", "susie", "ralsei"],
+    //"party": ["kris", "susie", "noelle"],
+    //"party": ["player", "susie", "noelle"], --for testing battle with different soul modes
+    //"party": ["kris", "noelle"], // for testing snowgrave
+    
+    "inventory": {
+        "items": ["light/mech_pencil", "light/the_locket", "light/wristwatch"], //"light/chocolate",
+        "key_items": ["cell_phone", "egg"],
+        "storage": ["favwich"]
+    },
+
+    //"inventory": {
+    //    "items": ["darkburger", "darkburger", "darkburger", "darkburger", "dd_burger", "dumburger", "tensionbit", "tensionbit", "counter"],
+    //    "key_items": ["cell_phone", "shadowcrystal", "egg"],
+    //    "storage": ["favwich"]
+    //},
+
+    //"equipment": {
+    //    "kris": {
+    //        "weapon": "wood_blade",
+    //        "armor": ["dealmaker", "egg"]
+    //    },
+    //    "susie": {
+    //        "weapon": "devilsknife"
+    //    }
+    //},
+
+    "transition": false,
+
+    "quickReload": true,
+    "hidden": false,
+
+    "config": {
+        "kristal": {
+            //"growStrongerChara": "susie",
+
+            //"ralseiStyle": 2
+        },
+        "virovirokun": {
+            "enable_cook": true,
+            "enable_quarantine": true
+        }
+    }
+}

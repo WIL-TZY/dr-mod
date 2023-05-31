@@ -1,0 +1,332 @@
+return {
+  version = "1.9",
+  luaversion = "5.1",
+  tiledversion = "1.9.2",
+  class = "",
+  orientation = "orthogonal",
+  renderorder = "right-down",
+  width = 16,
+  height = 20,
+  tilewidth = 40,
+  tileheight = 40,
+  nextlayerid = 5,
+  nextobjectid = 17,
+  properties = {
+    ["light"] = "true",
+    ["music"] = "hometown",
+    ["name"] = "Home - Outside"
+  },
+  tilesets = {
+    {
+      name = "hometown_map",
+      firstgid = 1,
+      filename = "../tilesets/hometown_map.tsx",
+      exportfilename = "../tilesets/hometown_map.lua"
+    }
+  },
+  layers = {
+    {
+      type = "tilelayer",
+      x = 0,
+      y = 0,
+      width = 16,
+      height = 20,
+      id = 1,
+      name = "tiles",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      encoding = "lua",
+      data = {
+        177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192,
+        320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335,
+        463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478,
+        606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621,
+        749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764,
+        892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907,
+        1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050,
+        1178, 1179, 1180, 1181, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1193,
+        1321, 1322, 1323, 1324, 1325, 1326, 1327, 1328, 1329, 1330, 1331, 1332, 1333, 1334, 1335, 1336,
+        1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475, 1476, 1477, 1478, 1479,
+        1607, 1608, 1609, 1610, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622,
+        1750, 1751, 1752, 1753, 1754, 1755, 1756, 1757, 1758, 1759, 1760, 1761, 1762, 1763, 1764, 1765,
+        1893, 1894, 1895, 1896, 1897, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1906, 1907, 1908,
+        2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050, 2051,
+        2179, 2180, 2181, 2182, 2183, 2184, 2185, 2186, 2187, 2188, 2189, 2190, 2191, 2192, 2193, 2194,
+        2322, 2323, 2324, 2325, 2326, 2327, 2328, 2329, 2330, 2331, 2332, 2333, 2334, 2335, 2336, 2337,
+        2465, 2466, 2467, 2468, 2469, 2470, 2471, 2472, 2473, 2474, 2475, 2476, 2477, 2478, 2479, 2480,
+        2608, 2609, 2610, 2611, 2612, 2613, 2614, 2615, 2616, 2617, 2618, 2619, 2620, 2621, 2622, 2623,
+        2751, 2752, 2753, 2754, 2755, 2756, 2757, 2758, 2759, 2760, 2761, 2762, 2763, 2764, 2765, 2766,
+        2894, 2895, 2896, 2897, 2898, 2899, 2900, 2901, 2902, 2903, 2904, 2905, 2906, 2907, 2908, 2909
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 2,
+      name = "collision",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 1,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 216,
+          y = 200,
+          width = 82.6667,
+          height = 160,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 3,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 600,
+          y = 200,
+          width = 40,
+          height = 360,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 4,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 440,
+          y = 560,
+          width = 200,
+          height = 240,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 5,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 0,
+          y = 560,
+          width = 240,
+          height = 240,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 6,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 0,
+          y = 0,
+          width = 40,
+          height = 560,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 7,
+          name = "",
+          class = "",
+          shape = "polygon",
+          x = 240,
+          y = 560,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          polygon = {
+            { x = 0, y = 0 },
+            { x = -40, y = -40 },
+            { x = -80, y = -40 },
+            { x = -120, y = -80 },
+            { x = -160, y = -80 },
+            { x = -200, y = -120 },
+            { x = -200, y = 0 }
+          },
+          properties = {}
+        },
+        {
+          id = 8,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 40,
+          y = 0,
+          width = 600,
+          height = 200,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 9,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 469,
+          y = 200,
+          width = 131,
+          height = 144,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 10,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 374.667,
+          y = 200,
+          width = 91.6667,
+          height = 160,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 15,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 80,
+          y = 200,
+          width = 133,
+          height = 140,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 3,
+      name = "markers",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 12,
+          name = "entry",
+          class = "",
+          shape = "point",
+          x = 337.333,
+          y = 421.333,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 14,
+          name = "entry2",
+          class = "",
+          shape = "point",
+          x = 338.667,
+          y = 697.333,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 4,
+      name = "objects",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 11,
+          name = "transition",
+          class = "",
+          shape = "rectangle",
+          x = 301.667,
+          y = 289.333,
+          width = 68,
+          height = 48,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["facing"] = "left",
+            ["map"] = "toriel_floor1",
+            ["marker"] = "entry2"
+          }
+        },
+        {
+          id = 13,
+          name = "transition",
+          class = "",
+          shape = "rectangle",
+          x = 240,
+          y = 774.667,
+          width = 200,
+          height = 25.3333,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["facing"] = "down",
+            ["map"] = "lightworld_exterior1",
+            ["marker"] = "entry"
+          }
+        },
+        {
+          id = 16,
+          name = "script",
+          class = "",
+          shape = "rectangle",
+          x = 301.649,
+          y = 282.761,
+          width = 68,
+          height = 54.5,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["cutscene"] = "sound_transition.exit",
+            ["once"] = false
+          }
+        }
+      }
+    }
+  }
+}

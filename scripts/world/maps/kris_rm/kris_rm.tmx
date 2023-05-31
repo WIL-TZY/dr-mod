@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="29">
+ <editorsettings>
+  <export target="data.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" value="true"/>
+  <property name="name" value="Kris' Room"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/toriel_house.tsx"/>
+ <layer id="1" name="tiles" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,749,750,751,752,753,754,755,756,757,758,759,760,0,0,
+0,0,783,784,785,786,787,788,789,790,791,792,793,794,0,0,
+0,0,817,818,819,820,821,822,823,824,825,826,827,828,0,0,
+0,0,851,852,853,854,855,856,857,858,859,860,861,862,0,0,
+0,0,885,886,887,888,889,890,891,892,893,894,895,896,0,0,
+0,0,919,920,921,922,923,924,925,926,927,928,929,930,0,0,
+0,0,953,954,955,956,957,958,959,960,961,962,963,964,0,0,
+0,0,987,988,989,990,991,992,993,994,995,996,997,998,0,0,
+0,0,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,0,0,
+0,0,1055,1056,1057,1058,1059,1060,1061,1062,1063,1064,1065,1066,0,0
+</data>
+ </layer>
+ <layer id="2" name="tiles_up" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,769,770,771,0,0,0,0,0,0,831,832,833,0,0,
+0,0,803,804,805,0,0,0,0,0,0,865,866,867,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="5" name="collision">
+  <object id="2" x="480" y="360" width="80" height="40"/>
+  <object id="3" x="560" y="80" width="40" height="320"/>
+  <object id="4" x="370.061" y="400" width="189.939" height="80"/>
+  <object id="5" x="80" y="400" width="209.975" height="80"/>
+  <object id="6" x="40" y="80" width="40" height="320"/>
+  <object id="10" x="467" y="200" width="93" height="120"/>
+  <object id="11" x="80" y="80" width="99" height="240"/>
+  <object id="13" x="360" y="160" width="106" height="80"/>
+  <object id="14" x="182" y="80" width="98" height="160"/>
+  <object id="15" x="280" y="80" width="80" height="120"/>
+  <object id="17" x="80" y="360" width="99" height="40"/>
+ </objectgroup>
+ <objectgroup color="#5500ff" id="4" name="markers">
+  <object id="25" name="spawn" x="327.333" y="280.667">
+   <point/>
+  </object>
+  <object id="26" name="entry" x="329" y="415">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" id="3" name="objects">
+  <object id="18" name="interactable" x="520" y="320" width="40" height="40"/>
+  <object id="19" name="interactable" x="90" y="214" width="87" height="110">
+   <properties>
+    <property name="text1">* There are CDs under the bed.[wait:10]
+* Classical,[wait:5] jazz,[wait:5] religious ska...</property>
+    <property name="text2">* There's also a game console.[wait:10]
+* It has one normal controller,[wait:5] and one knock-off one.</property>
+   </properties>
+  </object>
+  <object id="20" name="interactable" x="469" y="217" width="87" height="109"/>
+  <object id="21" name="interactable" x="80" y="360" width="104" height="40"/>
+  <object id="22" name="interactable" x="371" y="160" width="94" height="69"/>
+  <object id="23" name="interactable" x="185" y="161" width="94" height="69"/>
+  <object id="24" name="interactable" x="280" y="160" width="87" height="40"/>
+  <object id="27" name="transition" x="292" y="467" width="78" height="13">
+   <properties>
+    <property name="facing" value="down"/>
+    <property name="map" value="toriel_floor2"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
