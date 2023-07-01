@@ -58,7 +58,7 @@
     "config": {
         "kristal": {
             //"growStrongerChara": "susie",
-
+            "targetSystem": false,
             //"ralseiStyle": 2
         },
         "virovirokun": {

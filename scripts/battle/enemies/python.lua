@@ -27,7 +27,8 @@ function Python:init()
     self.waves = {
         "basic",
         --"aiming",
-        "aiming_heal",
+        "heal",
+        "heal_alt",
         -- "star_spiral",
         "two_bullets",
         --"basic_shootable",

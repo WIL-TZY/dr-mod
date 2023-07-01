@@ -22,7 +22,7 @@ function Starwalker:init()
     self.auto_spare = true
 
     self.waves = {
-        "starwings"
+        "starwings",
         --"solidtest"
     }
 
